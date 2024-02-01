@@ -17,5 +17,12 @@ print('Let us get started...')
 #print(programming_languages[10])
 
 # Key Error
-ages = {'Jim': 30, 'Pam': 28, 'Kevin': 33}
-ages['Michael']
+#ages = {'Jim': 30, 'Pam': 28, 'Kevin': 33}
+#ages['Michael']
+
+# Type Error
+#age = input('What is your age? ')
+#print('In 10 years, you will be', age + 10)
+
+# Value Error
+age = int(input('What is your age? '))
